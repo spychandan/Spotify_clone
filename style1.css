@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+/*Helpers*/
+
+::-webkit-scrollbar{
+	display: none;
+}
+ 
+*{
+	margin: 0;
+	padding: 0;
+}
+/*navigation*/
+nav{
+	display: flex;
+	font-family: 'Ubuntu', 'Open+Sans';
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+nav ul{
+	width: 100%;
+	display: flex;
+	align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+
+}
+.brand img{
+	width: 32px;
+	padding: 0 8px;
+}
+.brand{
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1rem;
+}
+nav ul li{
+	padding: 0 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+label input{
+	height: 25px;
+	border-radius: 15px;
+     padding-left: 5px;
+     width: 200%;
+     margin-left: 20px;
+}
+.fa-bell{
+	margin-left: 17vw;
+}
+.fa-circle-user{
+	margin-left: 42vw;
+	font-size: 1.6em;	
+}
+
+/*main-section*/
+
+/*aside sub-main*/
+
+.sub-main{
+	background-color: #efefef;
+	display: inline-block;
+	margin-left: 1rem;
+	margin-top: 2.5rem;
+	width: 70%;
+	height: 86vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.sub-main img{
+	height: 20rem;
+	float: left;
+}
+
+.eminem{
+	display: flex;
+	font-size: 3rem;
+	padding-top: 8rem;
+	font-family: 'Roboto';
+	font-weight: bolder;
+	padding-top: 3rem;
+	padding-left: 2rem;
+}
+.title{
+	font-size:1rem ;
+	font-family: 'Ubuntu' ;
+	font-weight: 100;
+	padding: 0.5rem 2.4rem;
+}
+.description{
+	display: flex;
+	width: 50%;
+	padding: 1rem 2.4rem;
+}
+.button{
+	cursor: pointer;
+	border: none;
+	padding: 0.5rem 2rem;
+	margin-left: 2.4rem;
+	margin-top: 1rem;
+	color: white;
+	background: linear-gradient(red, orange);
+	font-weight: bolder;
+}
+#follow{
+	font-family: 'Roboto';
+	font-size: 1rem;
+	font-weight: bolder;
+	margin-left: 3rem;
+	color: #2c2cff;
+}
+
+.list-below{
+	display: inline-block;
+	width: 70%;
+}
+
+/*aside right-main*/
+
+.right-main{
+	display: flex;
+	flex-direction: column-reverse;
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	height: 86vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.artists{
+	margin: 1rem 2rem;
+	font-family: 'Ubuntu', 'Open+Sans';
+	font-weight: bolder;
+	font-size: 2rem;
+}
+#queue{
+	box-shadow: 0px 0px 2px 1px #767676c2;
+	margin-left: 0;
+	margin-top: 1.3rem;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	font-weight: bolder;
+}
+
+.playlist img{
+	height: 50px;
+	padding: 0 1rem;
+}
+
+.song-name{
+	font-family: 'Ubuntu', 'Open+Sans';
+	font-weight: bolder;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+.list-number{
+	font-family: 'Ubuntu' ;
+	font-weight: 100;
+	padding: 0 1rem;
+	font-size: 1rem;
+}
+.fa-heart{
+	margin-left: 4rem;
+	margin-right: 1rem;
+}
+
+/*Bottom soundbar*/
+
+.bottom{
+	display: flex;
+	margin-top: 1rem;
+	position: sticky;
+	bottom: 0;
+	height: 80px;
+	background-color: white;
+	flex-direction: column;
+	text-align: center;
+}
+.bottom i{
+     margin: 1.2rem 1.2rem;
+     font-size: 1.5rem;
+}
+.fa-circle-play{
+	color: red;
+}
+
+#soundbar{
+	width: 100%;
+	height: 4px;
+}
+#bottom-image{
+	position: absolute;
+	height: 50px;
+	left: 0;
+     padding: 1rem 2rem;
+}
+#bottom-name{
+	position: absolute;
+	left: 0;
+	margin:  1.6rem 8rem;
+}
+
+
+
+

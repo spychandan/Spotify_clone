@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+/*Helpers*/
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+body{
+	background-color:white;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*navigation*/
+nav{
+	display: flex;
+	font-family: 'Ubuntu', 'Open+Sans';
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+nav ul{
+	display: flex;
+	width: 100%;
+	align-items: center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+
+}
+.brand img{
+	width: 32px;
+	padding: 0 8px;
+}
+.brand{
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1rem;
+}
+nav ul li{
+	padding: 0 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+label input{
+	height: 25px;
+	border-radius: 15px;
+     padding-left: 5px;
+     width: 200%;
+     margin-left: 20px;
+}
+.fa-bell{
+	margin-left: 17vw;
+}
+.fa-circle-user{
+	margin-left: 42vw;
+	font-size: 1.6em;	
+}
+
+/*main-section*/
+.sub-main{
+	margin-left: 1rem;
+	display: inline-block;
+	width: 70%;
+	height: 86vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+/*Banners*/
+.Banners{
+	display: flex;
+	list-style-type: none;
+}
+
+.Banners img{
+	height: 12rem;
+	width: 19rem;
+	margin: 2.5rem 0.5rem;
+	margin-bottom: 0;
+}
+.Banners img:hover{
+	transform: scale(1.1);
+	transition: 0.4s ease-in-out;
+}
+
+/*Latest Release*/
+.thumbnails{
+     display: flex;
+     list-style-type: none;
+}
+.thumbnails img{
+	border-radius: 6%;
+	margin: 0 8px;
+	height: 11rem;
+	box-shadow: 0px 0px 2px 1px #767676c2;
+}
+/*#playbutton img{
+	position: absolute;
+    left: 5.5rem;
+    bottom: 7rem;
+    font-size: 0.5rem;
+    color: darkgrey ;
+    font-display: none;
+}*/
+.thumbnails img:hover{
+	cursor: pointer;
+	opacity: 0.5;
+
+}
+/*Artists-section*/
+
+.artists{
+	margin: 1rem 2rem;
+	font-family: 'Ubuntu', 'Open+Sans';
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.container ul img{
+	border-radius: 50%;
+	height: 10rem;
+	width: 10rem;
+	margin:  0 8px;
+	box-shadow: 0px 0px 2px 1px #767676c2;
+}
+.container ul{
+	color: black;
+	display: flex;
+	list-style-type: none;
+}
+.container span{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	font-family: 'Ubuntu' ;
+	font-weight: bold;
+}
+.container ul img:hover{
+	opacity: 0.8;
+     transform: scale(1.1);
+     transition: 0.2s ease-in-out;
+
+}
+/*aside-section*/
+
+/*making of a queue playlist*/
+
+.right-main{
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	height: 86vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#queue{
+	background-color: /*hsl(0deg 6% 90%)*/ ;
+	box-shadow: 0px 0px 2px 1px #767676c2;
+	margin-left: 0;
+	margin-top: 1.3rem;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	font-weight: bolder;
+}
+
+.playlist img{
+	height: 50px;
+	padding: 0 1rem;
+}
+.song-name{
+	font-family: 'Ubuntu', 'Open+Sans';
+	font-weight: bolder;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+.list-number{
+	font-family: 'Ubuntu' ;
+	font-weight: 100;
+	padding: 0 1rem;
+	font-size: 1rem;
+}
+.fa-heart{
+	margin-left: 4rem;
+	margin-right: 1rem; 
+}
+.option{
+	list-style-type: none;
+}
+/*Bottom soundbar*/
+
+.bottom{
+	display: flex;
+	margin-top: 1rem;
+	position: sticky;
+	bottom: 0;
+	height: 80px;
+	background-color: white;
+	flex-direction: column;
+	text-align: center;
+}
+.bottom i{
+     margin: 1.2rem 1.2rem;
+     font-size: 1.5rem;
+}
+.fa-circle-play {
+	color: red;
+}
+.fa-circle-pause {
+	color: red;
+}
+
+#soundbar{
+	cursor: pointer;
+	width: 100%;
+	height: 4px;
+}
+#bottom-image{
+	position: absolute;
+	height: 50px;
+	left: 0;
+     padding: 1rem 2rem;
+}
+#bottom-name{
+	position: absolute;
+	left: 0;
+	margin:  1.6rem 8rem;
+}

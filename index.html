@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/1149d5df0f.js" crossorigin="anonymous"></script>
+	<title>Spotify - Your favourite music is here </title>
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<nav>
+		<ul>
+			<li class="brand"><img src="spotify.png">Spotify
+			</li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+
+			<li><label id="search">
+				<input type="Search" name="Search" required placeholder="Search Artists, Songs, Albums">
+			</label></li>
+			<!-- fontawsome icon -->
+			<li><i class="fa-solid fa-bell"></i></li>
+			
+			<li><i class="fa-solid fa-circle-user"></i></li>
+
+		</ul>
+	</nav>
+	
+	
+	<!-- main-section -->
+	<main>
+	<aside class="sub-main">
+		<!-- Banners -->
+	<ul class="Banners">
+		<li><img src="Banner1.jpg"></li>
+		<li><img src="Banner2.jpg"></li>
+		<li><img src="Banner3.jpg"></li>
+	</ul>
+    <br>
+    <!-- latest release -->
+    <div class="artists">Latest Release</div>
+    <ul class="thumbnails container">
+    	<li><img src="Latest1.jpg"><span>Kalakar</span></li>
+    	<li><img src="Latest2.jpg"><span>Mausam Hai Pyaar</span></li>
+    	<li><img src="Latest3.jpg"><span>Pani Pani</span></li>
+    	<li><img src="Latest4.jpg"><span>Attention</span></li>
+    	<li><img src="Latest5.jpg"><span>No Competition</span></li>
+    </ul>
+    <!-- Top Playlist -->
+    <br>
+    <div class="artists">Top Playlist</div>
+    <ul class="thumbnails container">
+    	<li><img src="Retro1.jpg"><span>Classic Hits</span></li>
+    	<li><img src="Retro2.jpg"><span>80's Retro</span></li>
+    	<li><img src="Retro3.jpg"><span>Romantic Hits</span></li>
+    	<li><img src="Retro4.jpg"><span>Workout Motivation</span></li>
+    	<li><img src="Retro5.jpg"><span>Punjabi Hits</span></li>
+    </ul>
+     <!-- Top Artists -->
+     <div class="artists">Top Artists</div>
+	<div class="container">
+		
+	<ul>
+		<li><a href="artist.html"><img src="sidhu.jpg"></a><span>Sidhu Moosewala</span></li>
+		<li><a href="artist.html"><img src="eminem.jpg"></a><span>Eminem</span></li>
+		<li><a href="artist.html"><img src="atif.jpg"></a><span> Atif Aslam</span></li>
+		<li><a href="artist.html"><img src="lataji.jpg"></a><span>Lata Mangeshkar</span></li>
+		<li><a href="artist.html"><img src="jubin.jpg"></a><span>Jubin Nautiyal</span></li>
+	</ul>
+    </div>
+    <!-- Popular in HIndi -->
+    <br>
+    <div class="artists">Popular In Hindi</div>
+    <ul class="thumbnails container">
+    	<li><img src="Hindi1.jpg"><span>Raataan Lambiyan</span></li>
+    	<li><img src="Hindi2.jpg"><span>Naach Meri Rani</span></li>
+    	<li><img src="Hindi3.jpg"><span>Care Ni Karda</span></li>
+    	<li><img src="Hindi4.jpg"><span>Namo Namo</span></li>
+    	<li><img src="Hindi5.jpg"><span>Chitta</span></li>
+    </ul>
+    <!-- Popular in English -->
+    <br>
+    <div class="artists">Popular In English</div>
+    <ul class="thumbnails container">
+    	<li><img src="English1.jpg"><span>Unstoppable</span></li>
+    	<li><img src="English2.jpg"><span>Lover</span></li>
+    	<li><img src="English3.jpg"><span>Cheap Thrills</span></li>
+    	<li><img src="English4.jpg"><span>Industry Baby</span></li>
+    	<li><img src="English5.jpg"><span>Stay</span></li>
+    </ul></aside>
+
+    <!-- aside-section -->
+
+    <aside class="right-main">
+    	<br><div class="artists" id="queue">Playlist</div>
+    	<table class="playlist">
+    		<tr id="0">
+    			<td class="list-number">01</td>
+		<th><img src="Hindi1.jpg"></th>
+		<th class="song-name">Raataan Lambiyan<br><span class="list-number">Jubin Nautiyal</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr id="1">
+    			<td class="list-number">02</td>
+		<th><img src="Latest1.jpg"></th>
+		<th class="song-name">Kalakar<br><span class="list-number">Khan Saab</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr id="2">
+    			<td class="list-number">03</td>
+		<th><img src="Hindi3.jpg"></th>
+		<th class="song-name">Care Ni Karda<br><span class="list-number">Sweetaj Brar</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr id="3">
+    			<td class="list-number">04</td>
+		<th><img src="Latest3.jpg"></th>
+		<th class="song-name">Pani Pani<br><span class="list-number">Ninja</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr id="4">
+    			<td class="list-number">05</td>
+		<th><img src="Hindi5.jpg"></th>
+		<th class="song-name">Chitta<br><span class="list-number">Manan Bhardwaj</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr id="5">
+    			<td class="list-number">06</td>
+		<th><img src="English1.jpg"></th>
+		<th class="song-name">Unstoppable<br><span class="list-number">SIA</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">07</td>
+		<th><img src="Hindi3.jpg"></th>
+		<th class="song-name">Care Ni Karda<br><span class="list-number">Sweetaj Brar</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">08</td>
+		<th><img src="Latest3.jpg"></th>
+		<th class="song-name">Pani Pani<br><span class="list-number">Ninja</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">09</td>
+		<th><img src="English3.jpg"></th>
+		<th class="song-name">Cheap Thrills<br><span class="list-number">SIA ft.Sean Paul</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">10</td>
+		<th><img src="Hindi4.jpg"></th>
+		<th class="song-name">Namo Namo<br><span class="list-number">Amit Trivedi</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">11</td>
+		<th><img src="Latest4.jpg"></th>
+		<th class="song-name">Attention<br><span class="list-number">Omah Lay</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">12</td>
+		<th><img src="English4.jpg"></th>
+		<th class="song-name">Industry Baby<br><span class="list-number">Lil Nas X</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">13</td>
+		<th><img src="Hindi1.jpg"></th>
+		<th class="song-name">Raataan Lambiyan<br><span class="list-number">Jubin Nautiyal</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">14</td>
+		<th><img src="Latest1.jpg"></th>
+		<th class="song-name">Kalakar<br><span class="list-number">Khan Saab</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">15</td>
+		<th><img src="English1.jpg"></th>
+		<th class="song-name">Unstoppable<br><span class="list-number">SIA</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">16</td>
+		<th><img src="Hindi2.jpg"></th>
+		<th class="song-name">Naach Meri Rani<br><span class="list-number">Guru Randhawa</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">17</td>
+		<th><img src="Latest2.jpg"></th>
+		<th class="song-name">Mausam Hai Pyaar<br><span class="list-number">Nikhil D'Souza</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">18</td>
+		<th><img src="English2.jpg"></th>
+		<th class="song-name">Lover<br><span class="list-number">Taylor Swift</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">19</td>
+		<th><img src="Hindi3.jpg"></th>
+		<th class="song-name">Care Ni Karda<br><span class="list-number">Sweetaj Brar</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">20</td>
+		<th><img src="Latest3.jpg"></th>
+		<th class="song-name">Pani Pani<br><span class="list-number">Ninja</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">21</td>
+		<th><img src="English3.jpg"></th>
+		<th class="song-name">Cheap Thrills<br><span class="list-number">SIA ft.Sean Paul</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">22</td>
+		<th><img src="Hindi4.jpg"></th>
+		<th class="song-name">Namo Namo<br><span class="list-number">Amit Trivedi</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">23</td>
+		<th><img src="Latest4.jpg"></th>
+		<th class="song-name">Attention<br><span class="list-number">Omah Lay</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">24 </td>
+		<th><img src="English4.jpg"></th>
+		<th class="song-name">Industry Baby<br><span class="list-number">Lil Nas X</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">25 </td>
+		<th><img src="English5.jpg"></th>
+		<th class="song-name">Stay<br><span class="list-number">The Kid Laroi</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">26 </td>
+		<th><img src="Hindi5.jpg"></th>
+		<th class="song-name">Chitta<br><span class="list-number">Manan Bhardwaj</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    		<tr>
+    			<td class="list-number">27 </td>
+		<th><img src="Latest5.jpg"></th>
+		<th class="song-name">No Competition<br><span class="list-number">Jass Manak</span></th>
+		<th><i class="fa-regular fa-heart"></i></th>
+    		</tr>
+    	</table>
+    </aside></main>
+    <!-- sound bar bottom-->
+    <div class="bottom">
+    	<input type="range" name="range" id="soundbar" min="0" value="0" max="100">
+    	<span><img src="Hindi1.jpg" id="bottom-image"><span class="song-name" id="bottom-name">Raataan Lambiyan</span><br><span class="list-number" id="bottom-singer">Jubin Nautiyal</span></span >
+	</div>
+    		<i class="fa-solid fa-repeat"></i>
+    	<i class="fa-solid fa-backward-step"></i>
+    	<i class="fa-solid fa-circle-play" id="master-play"></i>
+    	<i class="fa-solid fa-forward-step" id="next-song"></i>
+    	<i class="fa-solid fa-shuffle"></i>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
